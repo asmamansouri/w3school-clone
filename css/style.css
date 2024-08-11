@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+/*header and navbar*/
+header {
+  height: 80px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+}
+.nav-left {
+  width: 50%;
+  background-color: white;
+  display: flex;
+}
+.logo-top {
+  padding: 10px;
+}
+.nav-right {
+  width: 50%;
+  background-color: white;
+}
+.menu-top ul {
+  list-style-type: none;
+}
+.menu-top ul li {
+  display: inline-block;
+  padding: 25px 15px;
+  font-weight: bold;
+}
+.menu-top a :hover{
+background-color: #04aa6d;
+color: #fff;
+}
+/*header beendet*/
+/* body startet*/
+/* learn to code section startet */
+.section-learn-code {
+    background-color: #0d1721;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+  }
+  .section-learn-code h1 {
+    font-size: 80px;
+    color: #fff;
+    padding: 80px 400px 20px 600px;
+  }
+.section-learn-code p:nth-of-type(1) {
+    font-size: 25px;
+    color: lightpink;
+    font-weight: bold;
+    padding: 20px 400px 20px 650px;
+  }
+  .search-box {
+    width: 800px;
+    height: 50px;
+    border: none;
+    margin: auto;
+  }
+  .search-box input {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  .search-box button {
+    width: 18%;
+    height: 50px;
+    background-color: #04aa6d;
+    border: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+  }
+  .section-learn-code p:nth-of-type(2){
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     text-decoration: underline;
+     padding: 30px 60px 10px 700px;
+  }
+  .begin-link{
+    color: #fff;
+  }
+  .begin-link:hover{
+    color: lightpink;
+  }
+  /* learn to code section beendet */
+  /* content HTMl starts */
+.section-html {
+  height: 500px;
+  width: 100%;
+  background-color: #d9eee1;
+  display: flex;
+  padding-bottom: 15px;
+}
+.div-html-left {
+  width: 50%;
+  padding: 130px;
+  text-align: center;
+}
+.div-html-right {
+  width: 50%;
+}
+.title-html {
+  font-size: 100px;
+
+  font-weight: bold;
+}
+.desc-html {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.btn-html {
+  width: 200px;
+
+  color: #fff;
+  margin: 15px auto;
+  padding-top: 10px;
+  height: 30px;
+  background-color: lightpink;
+  border-radius: 20px;
+}
+.html-box {
+  background-color: lightgray;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 25px 15px;
+}
+.html-code {
+  background-color: #fff;
+  width: 450px;
+  height: 300px;
+  margin: 15px auto;
+  border-left: 5px solid #04aa6d;
+  padding: 10px;
+}
+.btn-try {
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  background-color: #04aa6d;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.html-box a {
+  text-decoration: none;
+}
+
+
